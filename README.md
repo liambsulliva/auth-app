@@ -43,7 +43,3 @@ Before running this application, make sure you have the following:
 2. Register a new account by providing a username and password.
 3. The password will be encrypted using bcrypt and stored in the MongoDB database.
 4. You can now use the registered credentials to log in on the login page.
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
