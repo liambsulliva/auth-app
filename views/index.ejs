@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1">
+  <title>Authentication App</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+</head>
+<body>
+  <div class="content">
+    <% if (user) {%>
+      <div class="login-title-center">
+        <h1 class="login-header">Good to see you <%= user.username %>!</h1>
+        <p>What can we do for you today?</p>
+      </div>
+      <div class="button-selector">
+        <a class="button" href="/log-out">Log Out</a>
+      </div>
+    <% } else { %>
+      <h1>Authentication App</h1>
+      <div class="button-selector">
+        <a class="button" href="/login">Login</a>
+        <a class="button" href="/sign-up">Register</a>
+      </div>
+    <%}%>
+  </div>
+</body>
+</html>

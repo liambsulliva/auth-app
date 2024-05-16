@@ -1,0 +1,169 @@
+/* Import the Material Design icons */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* Set up the primary color */
+:root {
+    --primary-color: #2196f3;
+}
+
+/* Apply Material Design styles to the body */
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply Material Design styles to headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Apply Material Design styles to buttons */
+button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    translate: scale 0.3s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Apply Material Design styles to text inputs */
+input[type="text"], input[type="password"] {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Apply Material Design styles to checkboxes */
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Apply Material Design styles to links */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+p {
+    margin: 0;
+    color: #6b7280;
+}
+
+/* Apply Material Design styles to Material icons */
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+.content {
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.alert {
+    color: red;
+}
+
+.login-title {
+    margin-bottom: 1.5rem;
+}
+
+.login-subtitle {
+    margin-bottom: 0.5rem;
+}
+
+.login-title-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login-title-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.login-header {
+    margin-bottom: 0.5rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-line, .pass-line {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.button-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+a.button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    translate: scale 0.3s ease;
+}
+
+a.button:active {
+    transform: scale(0.95);
+}
+
+.material-symbols--arrow-circle-left-outline {
+    display: inline-block;
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%231f8ee5' d='m12 16l1.4-1.4l-1.6-1.6H16v-2h-4.2l1.6-1.6L12 8l-4 4zm0 6q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22m0-2q3.35 0 5.675-2.325T20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20m0-8'/%3E%3C/svg%3E");
+}

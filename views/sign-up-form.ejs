@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1">
+  <title>Register</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+</head>
+<body>
+  <div class="content">
+    <div class="login-title-row">
+      <div class="login-title">
+        <h1 class="login-header">Sign Up</h1>
+        <p class="login-subtitle">Already have an account? <a href="/login">Login</a></p>
+        <% if (message.length > 0) { %>
+          <div class="alert"><%= message %></div>
+        <% } %>
+      </div>
+      <a href="/"><span class="material-symbols--arrow-circle-left-outline"></span></a>
+    </div>
+    <form class="login-form" action="" method="POST">
+      <div class="user-line">
+        <label for="username">Username</label>
+        <input name="username" type="text" />
+      </div>
+      <div class="pass-line">
+        <label for="password">Password</label>
+        <input name="password" type="password" />
+      </div>
+      <button>Sign Up</button>
+    </form>
+  </div>
+</body>
+</html>
