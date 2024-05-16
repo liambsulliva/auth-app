@@ -29,7 +29,7 @@ Before running this application, make sure you have the following:
 
 3. Set up the MongoDB connection:
 
-    - Open `.env` and update the DATABASE_URL environment variables with your own MongoDB database.
+    - Open `.env` and update the DATABASE_URL environment variable with your own MongoDB database.
 
 4. Start the application:
 
