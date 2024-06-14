@@ -1,45 +1,31 @@
-# Auth App
+## 👋 Introduction
 
-This is a simple authentication app that allows users to register a username and password, encrypts the password using bcrypt, and stores the credentials in MongoDB for later access on the login page.
+This is a sample authentication app built with NodeJS and Express, encrypted with bcrypt and stored in MongoDB. I will be using it as a template for authentication efforts in new backend projects.
 
-## Prerequisites
+## 💻 Demo
 
-Before running this application, make sure you have the following:
+Check out the [Demo](https://liam-auth-app.adaptable.app), hosted on Adaptable.
 
-- Node.js
-- MongoDB
-- Express
-- Bcrypt
-- Mongoose
+## 💪 Features:
+    
+- ✅ Mobile responsive
+- ✅ Encrypted Credentials
+- ✅ Form Validation
 
-## Installation
+## 🛣️ Roadmap
 
-1. Clone the repository:
+- ❌ Dark Mode Support
 
-    ```bash
-    git clone https://github.com/liambsulliva/auth-app.git
-    ```
+## ⚙️ Stack
 
-2. Install the dependencies:
+- [**NodeJS + Express**](https://nodejs.org/) - A JavaScript library that allows JS to be used to build out the backend.
+- [**MongoDB**](https://mongodb.com) - A JavaScript library for building user interfaces.
+- [**Mongoose**](https://mongoosejs.com//) - An object modeling tool for MongoDB to make Node integration seamless.
+- [**Flowbite**](https://npmjs.com/package/bcrypt) - A tool to easily hash data before passing it into a given database.
 
-    ```bash
-    cd auth-app
-    npm install
-    ```
+## 🧞 Commands
 
-3. Set up the MongoDB connection:
+All commands are run from the root of the project, from a terminal:
 
-    - Open `.env` and update the DATABASE_URL environment variable with your own MongoDB database.
-
-4. Start the application:
-
-    ```bash
-    npm start
-    ```
-
-## Usage
-
-1. Open your web browser and navigate to `http://localhost:3000`, or use the Github Live Preview: `https://liam-auth-app.adaptable.app`.
-2. Register a new account by providing a username and password.
-3. The password will be encrypted using bcrypt and stored in the MongoDB database.
-4. You can now use the registered credentials to log in on the login page.
+- `npm start`: Runs node development server with no listeners for local changes.
+- `npm devstart`: Runs nodemon development server with listeners for local changes.
