@@ -4,7 +4,7 @@ This is a sample authentication app built with NodeJS and Express, encrypted wit
 
 ## 💻 Demo
 
-Check out the [Demo](https://liam-auth-app.adaptable.app), hosted on Adaptable.
+Check out the [Demo](https://auth-app-fcex.onrender.com), hosted on Render.
 
 ## 💪 Features:
     
